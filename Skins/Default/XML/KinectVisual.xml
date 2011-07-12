@@ -1,0 +1,89 @@
+<visual>
+	<visualname>Kinect</visualname>
+	<visualdesc>Kinect Slots</visualdesc>
+	
+	<iconlist>
+		<icon name="About Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/About.png</iconpath>
+		</icon>
+		<icon name="CopyDVD Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/CopyDVD.png</iconpath>
+		</icon>
+		<icon name="Dvd Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/Dvd.png</iconpath>
+		</icon>
+		<icon name="Emulators Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/Emulators.png</iconpath>
+		</icon>
+		<icon name="Favs Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/Favs.png</iconpath>
+		</icon>
+		<icon name="FileManager Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/FileManager.png</iconpath>
+		</icon>
+		<icon name="Homebrew Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/Homebrew.png</iconpath>
+		</icon>
+		<icon name="MyMusic Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/MyMusic.png</iconpath>
+		</icon>
+		<icon name="MyPictures Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/MyPictures.png</iconpath>
+		</icon>
+		<icon name="MyVideos Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/MyVideos.png</iconpath>
+		</icon>
+		<icon name="Skins Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/Skins.png</iconpath>
+		</icon>
+		<icon name="RecentlyPlayed Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/RecentlyPlayed.png</iconpath>
+		</icon>
+		<icon name="Settings Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/Settings.png</iconpath>
+		</icon>
+		<icon name="System Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/System.png</iconpath>
+		</icon>
+		<icon name="XBLA Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/XBLA.png</iconpath>
+		</icon>
+		<icon name="Xbox Classic">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/xbox1.png</iconpath>
+		</icon>
+		<icon name="Xbox360 Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/Xbox360.png</iconpath>
+		</icon>	
+		<icon name="KaiSignIn Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/XlinkKai.png</iconpath>
+		</icon>	
+		<icon name="KaiPlayOnline Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/KaiPlayOnline.png</iconpath>
+		</icon>	
+		<icon name="KaiBuddies Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/KaiBuddy.png</iconpath>
+		</icon>	
+		<icon name="KaiArena Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/KaiArena.png</iconpath>
+		</icon>	
+		<icon name="KaiChat Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/KaiChat.png</iconpath>
+		</icon>	
+		<icon name="FSDPlugIn Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/FSDPlugIn.png</iconpath>
+		</icon>	
+		<icon name="Weather Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Icons/Weather.png</iconpath>
+		</icon>
+	</iconlist>
+	<bkglist>
+		<bkg name = "Style 1">
+			<bkgpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Backgrounds/Kinect_1.png</bkgpath>
+		</bkg>
+	</bkglist>
+	<reflectionlist>
+		<reflection name = "Type 1">
+			<reflectionpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Kinect/Reflections/BkgReflection.png</reflectionpath>
+		</reflection>
+	</reflectionlist>
+</visual>

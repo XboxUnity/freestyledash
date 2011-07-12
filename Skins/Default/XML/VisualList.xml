@@ -1,0 +1,11 @@
+<visuallist>
+	<visual path='XML\BlueVisual.xml' />
+	<visual path='XML\DarkGreyVisual.xml' />
+	<visual path='XML\GreenVisual.xml' />
+	<visual path='XML\LightGreyVisual.xml' />
+	<visual path='XML\OrangeVisual.xml' />
+	<visual path='XML\RedVisual.xml' />
+	<visual path='XML\BlackVisual.xml' />
+	<visual path='XML\KinectVisual.xml' />
+	<visual path='XML\KinectBlueVisual.xml' />
+</visuallist>

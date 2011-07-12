@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<xex>
+
+  <!-- Our Title ID
+  <titleid id="0xF5D20000"/>
+  -->
+
+  <!-- Our xex privileges -->
+  <privilege id="0"/> <!-- NoForceReboot -->
+  <privilege id="6"/> <!-- InsecureSockets -->
+
+  <!-- Xex sections -->
+  <section file="embedfont.xpr"   name="FSDFont" memory="RW"/>
+  <section file="dashversion.ver" name="FSDVer"  memory="RW"/>
+  <section file="teamfsd.xfsd"    name="TeamFSD" memory="RW"/>
+  
+</xex>

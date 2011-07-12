@@ -1,0 +1,10 @@
+Content List should be in game:, if its not writable, then ask user to : Select a drive to save, or do not save
+
+<contentlist>
+	<content gameId="gameId" isFav="true">
+		<path>CurrentPath</path>
+
+
+When list is loaded, if drive of the game is not mounted, then do not create the object and leave entry in xml, so we do not lose "per game settings (isfav)"
+There must be a way for user to see how much game in is xml are not found, and option to clean the xml (remove every not found entry)
+

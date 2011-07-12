@@ -1,0 +1,110 @@
+<visual>
+	<visualname>Blue</visualname>
+	<visualdesc>Blue Slots</visualdesc>
+	
+	<iconlist>
+		<icon name="About Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/About.png</iconpath>
+		</icon>
+		<icon name="CopyDVD Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/CopyDVD.png</iconpath>
+		</icon>
+		<icon name="Dvd Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/Dvd.png</iconpath>
+		</icon>
+		<icon name="Emulators Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/Emulators.png</iconpath>
+		</icon>
+		<icon name="Favs Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/Favs.png</iconpath>
+		</icon>
+		<icon name="FileManager Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/FileManager.png</iconpath>
+		</icon>
+		<icon name="Homebrew Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/Homebrew.png</iconpath>
+		</icon>
+		<icon name="MyMusic Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/MyMusic.png</iconpath>
+		</icon>
+		<icon name="MyPictures Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/MyPictures.png</iconpath>
+		</icon>
+		<icon name="MyVideos Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/MyVideos.png</iconpath>
+		</icon>
+		<icon name="Skins Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/Skins.png</iconpath>
+		</icon>
+		<icon name="RecentlyPlayed Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/RecentlyPlayed.png</iconpath>
+		</icon>
+		<icon name="Settings Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/Settings.png</iconpath>
+		</icon>
+		<icon name="System Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/System.png</iconpath>
+		</icon>
+		<icon name="XBLA Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/XBLA.png</iconpath>
+		</icon>
+		<icon name="Xbox Classic">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/xbox1.png</iconpath>
+		</icon>
+		<icon name="Xbox360 Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/Xbox360.png</iconpath>
+		</icon>	
+		<icon name="KaiSignIn Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/XlinkKai.png</iconpath>
+		</icon>	
+		<icon name="KaiPlayOnline Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/KaiPlayOnline.png</iconpath>
+		</icon>	
+		<icon name="KaiBuddies Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/KaiBuddy.png</iconpath>
+		</icon>	
+		<icon name="KaiArena Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/KaiArena.png</iconpath>
+		</icon>	
+		<icon name="KaiChat Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/KaiChat.png</iconpath>
+		</icon>	
+		<icon name="FSDPlugIn Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/FSDPlugIn.png</iconpath>
+		</icon>	
+		<icon name="Weather Icon">
+			<iconpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Icons/Weather.png</iconpath>
+		</icon>
+	</iconlist>
+	<bkglist>
+		<bkg name = "Style 1">
+			<bkgpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Backgrounds/Content_Bkg_1.png</bkgpath>
+		</bkg>
+		<bkg name = "Style 2">
+			<bkgpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Backgrounds/Content_Bkg_2.png</bkgpath>
+		</bkg>
+		<bkg name = "Style 3">
+			<bkgpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Backgrounds/Content_Bkg_3.png</bkgpath>
+		</bkg>
+		<bkg name = "Style 4">
+			<bkgpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Backgrounds/Content_Bkg_4.png</bkgpath>
+		</bkg>
+		<bkg name = "Style 5">
+			<bkgpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Backgrounds/Content_Bkg_5.png</bkgpath>
+		</bkg>
+		<bkg name = "Style 6">
+			<bkgpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Backgrounds/Content_Bkg_6.png</bkgpath>
+		</bkg>
+		<bkg name = "Style 7">
+			<bkgpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Backgrounds/Content_Bkg_7.png</bkgpath>
+		</bkg>
+		<bkg name = "Style 8">
+			<bkgpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Backgrounds/Content_Bkg_8.png</bkgpath>
+		</bkg>
+	</bkglist>
+	<reflectionlist>
+		<reflection name = "Type 1">
+			<reflectionpath>Images/Interface/Content Tabs/ContentTabData/Visuals/Blue/Reflections/BkgReflection.png</reflectionpath>
+		</reflection>
+	</reflectionlist>
+</visual>

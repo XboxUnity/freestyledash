@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Freestyle", "Freestyle\Freestyle.vcproj", "{0B580CAC-1D7B-42CE-B58F-FDB39490227F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C5FDDABE-AC43-4AE5-A0E1-37126F71494C} = {C5FDDABE-AC43-4AE5-A0E1-37126F71494C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AtgFramework", "ATG\AtgFramework2008.vcproj", "{91D208A6-9936-47FD-9659-67205C3EB0AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{9458E7F3-DF4F-4C0E-872D-0053C73C0812}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libiconv", "Libs\libiconv\libiconv_win32\libiconv_win32.vcproj", "{7A74ED4B-2BF5-47D7-B43E-C80F714417FB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libSmb", "Libs\libsmbd\libSmb.vcproj", "{C5FDDABE-AC43-4AE5-A0E1-37126F71494C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7A74ED4B-2BF5-47D7-B43E-C80F714417FB} = {7A74ED4B-2BF5-47D7-B43E-C80F714417FB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CodeAnalysis|Xbox 360 = CodeAnalysis|Xbox 360
+		Debug|Xbox 360 = Debug|Xbox 360
+		Profile_FastCap|Xbox 360 = Profile_FastCap|Xbox 360
+		Profile|Xbox 360 = Profile|Xbox 360
+		Release_LTCG|Xbox 360 = Release_LTCG|Xbox 360
+		Release|Xbox 360 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B580CAC-1D7B-42CE-B58F-FDB39490227F}.CodeAnalysis|Xbox 360.ActiveCfg = CodeAnalysis|Xbox 360
+		{0B580CAC-1D7B-42CE-B58F-FDB39490227F}.CodeAnalysis|Xbox 360.Build.0 = CodeAnalysis|Xbox 360
+		{0B580CAC-1D7B-42CE-B58F-FDB39490227F}.Debug|Xbox 360.ActiveCfg = Release_LTCG|Xbox 360
+		{0B580CAC-1D7B-42CE-B58F-FDB39490227F}.Debug|Xbox 360.Build.0 = Release_LTCG|Xbox 360
+		{0B580CAC-1D7B-42CE-B58F-FDB39490227F}.Profile_FastCap|Xbox 360.ActiveCfg = Profile_FastCap|Xbox 360
+		{0B580CAC-1D7B-42CE-B58F-FDB39490227F}.Profile_FastCap|Xbox 360.Build.0 = Profile_FastCap|Xbox 360
+		{0B580CAC-1D7B-42CE-B58F-FDB39490227F}.Profile|Xbox 360.ActiveCfg = Profile|Xbox 360
+		{0B580CAC-1D7B-42CE-B58F-FDB39490227F}.Profile|Xbox 360.Build.0 = Profile|Xbox 360
+		{0B580CAC-1D7B-42CE-B58F-FDB39490227F}.Release_LTCG|Xbox 360.ActiveCfg = Release_LTCG|Xbox 360
+		{0B580CAC-1D7B-42CE-B58F-FDB39490227F}.Release_LTCG|Xbox 360.Build.0 = Release_LTCG|Xbox 360
+		{0B580CAC-1D7B-42CE-B58F-FDB39490227F}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+		{0B580CAC-1D7B-42CE-B58F-FDB39490227F}.Release|Xbox 360.Build.0 = Release|Xbox 360
+		{91D208A6-9936-47FD-9659-67205C3EB0AB}.CodeAnalysis|Xbox 360.ActiveCfg = CodeAnalysis|Xbox 360
+		{91D208A6-9936-47FD-9659-67205C3EB0AB}.CodeAnalysis|Xbox 360.Build.0 = CodeAnalysis|Xbox 360
+		{91D208A6-9936-47FD-9659-67205C3EB0AB}.Debug|Xbox 360.ActiveCfg = Release_LTCG|Xbox 360
+		{91D208A6-9936-47FD-9659-67205C3EB0AB}.Debug|Xbox 360.Build.0 = Release_LTCG|Xbox 360
+		{91D208A6-9936-47FD-9659-67205C3EB0AB}.Profile_FastCap|Xbox 360.ActiveCfg = Profile_FastCap|Xbox 360
+		{91D208A6-9936-47FD-9659-67205C3EB0AB}.Profile_FastCap|Xbox 360.Build.0 = Profile_FastCap|Xbox 360
+		{91D208A6-9936-47FD-9659-67205C3EB0AB}.Profile|Xbox 360.ActiveCfg = Profile|Xbox 360
+		{91D208A6-9936-47FD-9659-67205C3EB0AB}.Profile|Xbox 360.Build.0 = Profile|Xbox 360
+		{91D208A6-9936-47FD-9659-67205C3EB0AB}.Release_LTCG|Xbox 360.ActiveCfg = Release_LTCG|Xbox 360
+		{91D208A6-9936-47FD-9659-67205C3EB0AB}.Release_LTCG|Xbox 360.Build.0 = Release_LTCG|Xbox 360
+		{91D208A6-9936-47FD-9659-67205C3EB0AB}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+		{91D208A6-9936-47FD-9659-67205C3EB0AB}.Release|Xbox 360.Build.0 = Release|Xbox 360
+		{7A74ED4B-2BF5-47D7-B43E-C80F714417FB}.CodeAnalysis|Xbox 360.ActiveCfg = Release|Xbox 360
+		{7A74ED4B-2BF5-47D7-B43E-C80F714417FB}.CodeAnalysis|Xbox 360.Build.0 = Release|Xbox 360
+		{7A74ED4B-2BF5-47D7-B43E-C80F714417FB}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{7A74ED4B-2BF5-47D7-B43E-C80F714417FB}.Debug|Xbox 360.Build.0 = Debug|Xbox 360
+		{7A74ED4B-2BF5-47D7-B43E-C80F714417FB}.Profile_FastCap|Xbox 360.ActiveCfg = Release|Xbox 360
+		{7A74ED4B-2BF5-47D7-B43E-C80F714417FB}.Profile_FastCap|Xbox 360.Build.0 = Release|Xbox 360
+		{7A74ED4B-2BF5-47D7-B43E-C80F714417FB}.Profile|Xbox 360.ActiveCfg = Release|Xbox 360
+		{7A74ED4B-2BF5-47D7-B43E-C80F714417FB}.Profile|Xbox 360.Build.0 = Release|Xbox 360
+		{7A74ED4B-2BF5-47D7-B43E-C80F714417FB}.Release_LTCG|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{7A74ED4B-2BF5-47D7-B43E-C80F714417FB}.Release_LTCG|Xbox 360.Build.0 = Debug|Xbox 360
+		{7A74ED4B-2BF5-47D7-B43E-C80F714417FB}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+		{7A74ED4B-2BF5-47D7-B43E-C80F714417FB}.Release|Xbox 360.Build.0 = Release|Xbox 360
+		{C5FDDABE-AC43-4AE5-A0E1-37126F71494C}.CodeAnalysis|Xbox 360.ActiveCfg = Release_LTCG|Xbox 360
+		{C5FDDABE-AC43-4AE5-A0E1-37126F71494C}.CodeAnalysis|Xbox 360.Build.0 = Release_LTCG|Xbox 360
+		{C5FDDABE-AC43-4AE5-A0E1-37126F71494C}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{C5FDDABE-AC43-4AE5-A0E1-37126F71494C}.Debug|Xbox 360.Build.0 = Debug|Xbox 360
+		{C5FDDABE-AC43-4AE5-A0E1-37126F71494C}.Profile_FastCap|Xbox 360.ActiveCfg = Profile_FastCap|Xbox 360
+		{C5FDDABE-AC43-4AE5-A0E1-37126F71494C}.Profile_FastCap|Xbox 360.Build.0 = Profile_FastCap|Xbox 360
+		{C5FDDABE-AC43-4AE5-A0E1-37126F71494C}.Profile|Xbox 360.ActiveCfg = Profile|Xbox 360
+		{C5FDDABE-AC43-4AE5-A0E1-37126F71494C}.Profile|Xbox 360.Build.0 = Profile|Xbox 360
+		{C5FDDABE-AC43-4AE5-A0E1-37126F71494C}.Release_LTCG|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{C5FDDABE-AC43-4AE5-A0E1-37126F71494C}.Release_LTCG|Xbox 360.Build.0 = Debug|Xbox 360
+		{C5FDDABE-AC43-4AE5-A0E1-37126F71494C}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+		{C5FDDABE-AC43-4AE5-A0E1-37126F71494C}.Release|Xbox 360.Build.0 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91D208A6-9936-47FD-9659-67205C3EB0AB} = {9458E7F3-DF4F-4C0E-872D-0053C73C0812}
+		{7A74ED4B-2BF5-47D7-B43E-C80F714417FB} = {9458E7F3-DF4F-4C0E-872D-0053C73C0812}
+		{C5FDDABE-AC43-4AE5-A0E1-37126F71494C} = {9458E7F3-DF4F-4C0E-872D-0053C73C0812}
+	EndGlobalSection
+EndGlobal

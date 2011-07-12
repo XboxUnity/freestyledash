@@ -1,0 +1,32 @@
+SkinManager
+-Should handle everything that is skin related.
+
+SkinManager::getInstance().getCurrentSkin() should return the skin name (folder name or xzp file name without the extension)
+SkinManager::getInstance().getAvailableSkins() should list every skin as clean name
+/* Private or protected, called by contructor */ SkinManager::getInstance().setSkin(string skinName) should load proper font from font.xml, load xur file.
+SkinManager::getInstance().loadScene("Main.xur") should load proper scene.
+
+v1 should probably need to have a SetUIApp method that require the CFreestyleUIApp
+
+SkinManager should get current skin name from settings.
+if the skin in setting is not there or is blank, should take first skin from available skin list instead of having a hardcoded default skin. (We could still hardcode a default skin in the default fsd2config.xml)
+
+
+SkinManager should also take care of skin settings, an xml that should be present for every skin :
+<skin>
+	<settings>
+		<displayFPS>TRUE</displayFPS> /* Default is False */
+		<ScnProfile>
+			<Instance id="TheScnProfileId">
+				<HIDEMODE>HIDE</HIDEMODE>
+			</Instance>
+			<Instance id="TheScnProfileId2">
+				<HIDEMODE>OFF</HIDEMODE>
+			</Instance>
+		</ScnProfile>
+	</settings>
+</skin>
+
+ConfigurableScene should be updated to get the settings from SkinManager instead of settings label
+
+			

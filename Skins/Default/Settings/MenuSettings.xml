@@ -1,0 +1,256 @@
+<menusettings>
+	<menu id='0' tabs='7' text='Freestyle Dash' color='0xFFFFFFFF' />
+	<menu id='1' tabs='5' text='Xlink Kai' color='0xFFFFFFFF' />
+	<menu id='2' tabs='1' text='Favourites' color='0xFFFFFFFF' />
+	<menu id='3' tabs='5' text='Utilities' color='0xFFFFFFFF' />
+	<menu id='4' tabs='3' text='Media' color='0xFFFFFFFF' />
+</menusettings>
+<tabsettings>
+	<tab id='0' parentid='0' text='Launch Game'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>0</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>2</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='1' parentid='0' text=''>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>1</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>16</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>0</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='2' parentid='0' text='Xbox 360 Games'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>2</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>16</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='3' parentid='0' text='Xbox Live Arcade'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>3</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>14</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='4' parentid='0' text='Homebrew'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>4</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>6</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='5' parentid='0' text='Xbox Classic'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>5</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>15</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='6' parentid='0' text='Emulators'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>6</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>3</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='0' parentid='1' text='Sign In/Out'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>0</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>17</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='1' parentid='1' text='Play Online'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>1</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>18</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='2' parentid='1' text='Contacts/Messages'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>2</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>19</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='3' parentid='1' text='Arena Mode'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>3</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>20</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='4' parentid='1' text='Chat Mode'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>4</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>21</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='0' parentid='2' text='FSD Plug-Ins'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>8</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>22</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='0' parentid='3' text='Settings'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>0</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>12</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='1' parentid='3' text='Copy DVD'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>1</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>1</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='2' parentid='3' text='File Manager'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>2</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>5</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='3' parentid='3' text='Skins'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>3</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>10</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='4' parentid='3' text='Weather'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>4</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>23</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+	<tab id='5' parentid='3' text='About'>
+		<bkgvisual>2</bkgvisual>
+		<bkgindex>5</bkgindex>
+		<iconvisual>2</iconvisual>
+		<iconindex>0</iconindex>
+		<reflectvisual>2</reflectvisual>
+		<reflectindex>0</reflectindex>
+		<animstate>1</animstate>
+		<gradientstate>1</gradientstate>
+		<iconstate>1</iconstate>
+		<mtextcolor>0xFFEBEBEB</mtextcolor>
+		<rtextcolor>0xFFFFFFFF</rtextcolor>
+	</tab>
+</tabsettings>

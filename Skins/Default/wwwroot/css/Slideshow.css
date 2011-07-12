@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/**************** Slideshow ***************************/
+#slideshow-area, #slideshow-scroller {
+  width: 640px;
+  height: 360px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#slideshow-area {
+  border: 1px solid #000;
+}
+
+#slideshow-holder {
+  height: 360px;
+}
+
+#slideshow-previous, #slideshow-next {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: transparent url("/files/images/arrow_left.png") no-repeat 50% 50%;
+  top: 175px;
+  display: none;
+  cursor: pointer;
+  cursor: hand;
+  opacity:0.4;
+  filter:alpha(opacity=40);
+}
+
+#slideshow-next {
+  display: block;
+  background: transparent url("/files/images/arrow_right.png") no-repeat 50% 50%;
+  top: 175px;
+  right: 0;
+}
+
+#slideshow-previous:hover, #slideshow-next:hover {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+
+.slideshow-content {
+  float: left;
+}
+
+/**************** Loading Div ***************************/
+.loading {
+	border: 0px;
+	width: 640px;
+	height: 360px;
+	overflow: hidden;
+	background: url("/files/images/loadingBackground.png") no-repeat;
+}

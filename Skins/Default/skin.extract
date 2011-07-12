@@ -1,0 +1,133 @@
+<skin>
+	<fonts>
+	</fonts>
+	<settings>
+		<Skin Min='2' Max='2'>Default (Extracted)</Skin>
+		<Author>TeamFSD</Author>
+		<Version>2.0</Version>
+		<displayFPS>FALSE</displayFPS>
+		<displayProjectTitle>FALSE</displayProjectTitle>
+		<displayCPURender>FALSE</displayCPURender>
+		<displayFreeMem>FALSE</displayFreeMem>
+		<VideoManager>
+			<Instance id="VideoManager">
+				<VIDEOICONPATH>Images\Interface\List Icons\Videos.png</VIDEOICONPATH>
+			</Instance>
+		</VideoManager>
+		<AchievementManager>
+			<Instance id="AchievementManager">
+				<MISSINGACHIEVEMENTPATH>Images\Interface\ListImages\AchievementList\Locked.png</MISSINGACHIEVEMENTPATH>
+				<SECRETACHIEVEMENTTEXT>Top Secret</SECRETACHIEVEMENTTEXT>
+			</Instance>
+		</AchievementManager>
+		<HTTPServer>
+			<Instance id="HTTPServer">
+				<ROOTPATH>wwwroot</ROOTPATH>
+			</Instance>
+		</HTTPServer>
+		<GamesList>
+			<Instance id="GameList">
+				<MISSINGICONPATH>Images\Interface\ListImages\GameList\Missing\missingIcon.dds</MISSINGICONPATH>
+				<MISSINGBOXARTPATH>Images\Interface\ListImages\GameList\Missing\missingBoxart.dds</MISSINGBOXARTPATH>
+				<MISSINGBANNERPATH>Images\Interface\ListImages\GameList\Missing\missingBanner.dds</MISSINGBANNERPATH>
+				<MISSINGSCREENSHOTPATH>Images\Interface\ListImages\GameList\Missing\missingScreenshot.dds</MISSINGSCREENSHOTPATH>
+				<LOADINGICONPATH>Images\Interface\ListImages\GameList\Loading\loadingIcon.dds</LOADINGICONPATH>
+				<LOADINGBOXARTPATH>Images\Interface\ListImages\GameList\Loading\loadingBoxart.dds</LOADINGBOXARTPATH>
+				<LOADINGBANNERPATH>Images\Interface\ListImages\GameList\Loading\loadingBanner.dds</LOADINGBANNERPATH>
+				<LOADINGSCREENSHOTPATH>Images\Interface\ListImages\GameList\Loading\loadingScreenshot.dds</LOADINGSCREENSHOTPATH>
+				<FAVORITESTARPATH>Images\Interface\ListImages\GameList\Stars\starFavorite.dds</FAVORITESTARPATH>
+				<RATINGSTAR000PATH>Images\Interface\ListImages\GameList\Stars\starRating0.dds</RATINGSTAR000PATH>
+				<RATINGSTAR025PATH>Images\Interface\ListImages\GameList\Stars\starRating1.dds</RATINGSTAR025PATH>
+				<RATINGSTAR050PATH>Images\Interface\ListImages\GameList\Stars\starRating2.dds</RATINGSTAR050PATH>
+				<RATINGSTAR075PATH>Images\Interface\ListImages\GameList\Stars\starRating3.dds</RATINGSTAR075PATH>
+				<RATINGSTAR100PATH>Images\Interface\ListImages\GameList\Stars\starRating4.dds</RATINGSTAR100PATH>
+			</Instance>
+		</GamesList>
+		<FilesList>
+			<Instance id="FileList">
+				<STANDARDFILEPATH>Images\Interface\ListImages\FileList\Standard\standardFile.png</STANDARDFILEPATH>
+				<STANDARDFOLDERPATH>Images\Interface\ListImages\FileList\Standard\standardFolder.png</STANDARDFOLDERPATH>
+			</Instance>
+		</FilesList>
+		<ActiveTUList>
+			<Instance id="ActiveTUList">
+				<ACTIVETUPATH>Images\Interface\ListImages\TUList\Active\TUActive.png</ACTIVETUPATH>
+				<DISABLEDTUPATH>Images\Interface\ListImages\TUList\Disabled\TUDisabled.png</DISABLEDTUPATH>
+			</Instance>
+		</ActiveTUList>
+		<SrcFilesList>
+			<Instance id="SrcFileList">
+				<STANDARDFILEPATH>Images\Interface\ListImages\FileList\Standard\standardFile.png</STANDARDFILEPATH>
+				<STANDARDFOLDERPATH>Images\Interface\ListImages\FileList\Standard\standardFolder.png</STANDARDFOLDERPATH>
+				<SELECTEDFILEPATH>Images\Interface\ListImages\FileList\Selected\selectedFile.png</SELECTEDFILEPATH>
+				<SELECTEDFOLDERPATH>Images\Interface\ListImages\FileList\Selected\selectedFolder.png</SELECTEDFOLDERPATH>
+			</Instance>
+		</SrcFilesList>
+		<DestFilesList>
+			<Instance id="DestFileList">
+				<STANDARDFILEPATH>Images\Interface\ListImages\FileList\Standard\standardFile.png</STANDARDFILEPATH>
+				<STANDARDFOLDERPATH>Images\Interface\ListImages\FileList\Standard\standardFolder.png</STANDARDFOLDERPATH>
+			</Instance>
+		</DestFilesList>
+		<PathList>
+			<Instance id="PathList">
+				<STANDARDFOLDERPATH>Images\Interface\ListImages\FileList\Standard\standardFolder.png</STANDARDFOLDERPATH>
+			</Instance>
+		</FilesList>
+		<ScnProfile>
+			<Instance id="ProfileScene"> 
+				<GAMERPICDISPLAYER>FALSE</GAMERPICDISPLAYER>
+				<PLAYERID>1</PLAYERID>
+				<HIDEMODE>HIDE</HIDEMODE>
+			</Instance>
+			<Instance id="GamerPic">
+				<PLAYERID>1</PLAYERID>
+				<HIDEMODE>OFF</HIDEMODE>
+				<GAMERPICDISPLAYER>TRUE</GAMERPICDISPLAYER>
+			</Instance>
+		</ScnProfile>
+		<ScnPopup>
+			<Instance id="StatisticsPopup">
+				<HIDEMODE>TRANS</HIDEMODE>
+				<INITSHOWN>FALSE</INITSHOWN>
+			</Instance>
+			<Instance id="CustomizeTabPopUp">
+				<HIDEMODE>TRANS</HIDEMODE>
+				<INITSHOWN>FALSE</INITSHOWN>
+			</Instance>
+		</ScnPopup>
+		<ScnSysInfo>
+			<Instance id="TopStatsBar">
+				<OVERRIDETEMPLABEL>TRUE</OVERRIDETEMPLABEL>
+				<OVERRIDESTORAGELABEL>TRUE</OVERRIDESTORAGELABEL>
+				<OVERRIDESTORAGEUNIT>FALSE</OVERRIDESTORAGEUNIT>
+				<UNMOUNTEDTEXT></UNMOUNTEDTEXT>
+				<NOICONUNMOUNTED>TRUE</NOICONUNMOUNTED>
+				<NOGRAPHUNMOUNTED>TRUE</NOGRAPHUNMOUNTED>
+				<PERCENTTODISPLAY>USED</PERCENTTODISPLAY>
+				<STORAGETODISPLAY>FREE</STORAGETODISPLAY>
+				<STORAGEUNITLOCATION>BOTH</STORAGEUNITLOCATION>
+			</Instance>
+		</ScnSysInfo>
+		<ScnTabPresenter>
+			<Instance id="CustomMenuItem">
+				<PRESENTER>ACTIVE</PRESENTER>
+			</Instance>
+			<Instance id="CustomPreviewItem">
+				<PRESENTER>PREVIEW</PRESENTER>
+			</Instance>
+		</ScnTabPresenter>
+		<ScnTeamFSD>
+			<Instance id="Avatar">
+				<INTERNALRES>LARGE</INTERNALRES>
+				<PLAYWALKINANIM>FALSE</PLAYWALKINANIM>
+				<HIDEONERROR>FALSE</HIDEONERROR>
+				<PLAYERINDEX>1</PLAYERINDEX>
+				<AVATARSHADOW>BOTH</AVATARSHADOW>
+				<AUTOROTATE>ON</AUTOROTATE>
+				<ANIMATIONINDEX>0</ANIMATIONINDEX>
+				<ROTATION>0</ROTATION>
+			</Instance>
+		</ScnTeamFSD>	
+	</settings>
+</skin>

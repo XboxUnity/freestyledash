@@ -1,0 +1,66 @@
+<backgroundlist>
+	<Background name="Skin Default">
+		<FILEPATH>Images\Backgrounds\Wallpapers\bkg_wallpaper.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Wallpapers\Previews\preview1.png</PREVIEWPATH>
+	</Background>
+	<Background name="Kinect">
+		<FILEPATH>Images\Backgrounds\Wallpapers\kinect_wallpaper.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Wallpapers\Previews\kinect_preview.png</PREVIEWPATH>
+	</Background>
+	<Background name="Kinect Blue">
+		<FILEPATH>Images\Backgrounds\Wallpapers\kinectblue_wallpaper.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Wallpapers\Previews\kinectblue_preview.png</PREVIEWPATH>
+	</Background>
+	<Background name="Strawberry Shortcake">
+		<FILEPATH>Images\Backgrounds\Wallpapers\bkg_wallpaper_2.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Wallpapers\Previews\preview2.png</PREVIEWPATH>
+	</Background>
+	<Background name="Iridescent">
+		<FILEPATH>Images\Backgrounds\Wallpapers\bkg_wallpaper_3.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Wallpapers\Previews\preview3.png</PREVIEWPATH>
+	</Background>
+	<Background name="Magic Dragon">
+		<FILEPATH>Images\Backgrounds\Wallpapers\bkg_wallpaper_4.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Wallpapers\Previews\preview4.png</PREVIEWPATH>
+	</Background>
+	<Background name="Orange Julius">
+		<FILEPATH>Images\Backgrounds\Wallpapers\bkg_wallpaper_5.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Wallpapers\Previews\preview5.png</PREVIEWPATH>
+	</Background>
+	<Background name="Evening Blue">
+		<FILEPATH>Images\Backgrounds\Wallpapers\bkg_wallpaper_6.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Wallpapers\Previews\preview6.png</PREVIEWPATH>
+	</Background>
+	<Background name="Cloudy Day">
+		<FILEPATH>Images\Backgrounds\Wallpapers\bkg_wallpaper_7.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Wallpapers\Previews\preview7.png</PREVIEWPATH>
+	</Background>
+	<Background name="Blood Shadows">
+		<FILEPATH>Images\Backgrounds\Wallpapers\bkg_wallpaper_8.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Wallpapers\Previews\preview8.png</PREVIEWPATH>
+	</Background>
+	<Background name="Ghostbusters">
+		<FILEPATH>Images\Backgrounds\Wallpapers\bkg_wallpaper_9.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Wallpapers\Previews\preview9.png</PREVIEWPATH>
+	</Background>
+	<Background name="Kansas">
+		<FILEPATH>Images\Backgrounds\Wallpapers\bkg_wallpaper_10.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Wallpapers\Previews\preview10.png</PREVIEWPATH>
+	</Background>
+	<Background name="UFO">
+		<FILEPATH>Images\Backgrounds\Wallpapers\bkg_wallpaper_11.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Wallpapers\Previews\preview11.png</PREVIEWPATH>
+	</Background>
+	<Background name="Ultra Marine">
+		<FILEPATH>Images\Backgrounds\Wallpapers\bkg_wallpaper_12.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Wallpapers\Previews\preview12.png</PREVIEWPATH>
+	</Background>
+	<Background name="Postcard">
+		<FILEPATH>Images\Backgrounds\Wallpapers\bkg_wallpaper_13.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Wallpapers\Previews\preview13.png</PREVIEWPATH>
+	</Background>
+	<Background name="No Background">
+		<FILEPATH></FILEPATH>
+		<PREVIEWPATH></PREVIEWPATH>
+	</Background>
+</backgroundlist>

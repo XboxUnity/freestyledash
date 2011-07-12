@@ -1,0 +1,340 @@
+@charset "UTF-8";
+
+/**************** Page Layout ***************************/
+
+#logo {
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+* { margin: 0; padding: 0; }
+
+a:link,
+a:visited { 
+	text-decoration: none; 
+	color: #d9d9d9
+}
+
+a:hover { 
+	text-decoration: none; 
+	color:#f48822; 
+}
+
+img{  border-style: none; }
+body { padding: 50px; background: #4c4c4c url(images/grad1.png) 0 0 repeat-x; color: #d9d9d9; font: 14px/normal Tahoma, Arial, Helvetica, sans-serif; }
+
+select,
+textarea,
+input { 
+	background: #4c4c4c;
+	border-style: solid;
+ 	border-width: 2px;
+	border-color: #1a1a1a #505050 #575757 #1a1a1a;
+	padding: 3px;
+	color: #fff;
+}
+
+h1 { 
+	margin-bottom: .5em; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-weight: normal; 
+	border-bottom: #999 solid;
+	font-size: 160%; 
+	text-indent: 5px; 
+	letter-spacing: -1px; 
+}
+
+h2 { 
+	margin-bottom: .5em; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-weight: normal; 
+	font-size: 130%; 
+	text-indent: 5px; 
+	letter-spacing: -1px; 
+}
+
+ul.classic { 
+	list-style: disc; 
+	margin-bottom: 1em; 
+	padding-left: 2em; 
+}
+
+
+.MainTable { 
+	width: 100%; 
+}
+
+.MainRow {
+	background: #3f3f3f;
+}
+
+.MainCol {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+}
+
+.NavRow {
+	background: #333;
+}
+
+.NavCol {
+	border-style: solid;
+ 	border-width: 1px;
+ 	border-color: #404040 #1a1a1a #1a1a1a #505050;
+}
+
+.FooterCol {
+	border-style: solid;
+ 	border-width: 1px;
+ 	border-color: #404040 #1a1a1a #1a1a1a #505050;
+	padding: 10px 10px 10px 10px;
+}
+
+.FooterRow {
+	background: #333;
+	padding: 10px 10px 10px 10px;
+}
+
+.ContentHeader {
+	width: 700px;
+	border-style: solid;
+ 	border-width: 2px;
+	border-color: #575757 #1a1a1a #1a1a1a #505050;
+}
+
+.ContentList {
+	width: 700px;
+	background: #333;
+	border-style: solid;
+ 	border-width: 2px;
+	border-color: #404040 #242424 #242424 #4a4a4a;
+}
+
+.ContentList td,
+.ContentHeader td {
+	padding-left: 5px;
+	padding-right: 5px;
+	border-width: 1px;
+	border-color: #999;
+}
+
+td .retail,
+td .devkit {
+	width: 170px;
+}
+
+/**************** Game List ********************/
+.GameContentHeader {
+	border-style: solid;
+ 	border-width: 2px;
+	border-color: #575757 #1a1a1a #1a1a1a #505050;
+}
+
+.icon {
+	width: 64px;
+	padding 2px;
+}
+
+.gameName {
+	width: 420px;
+}
+
+.titleID {
+	width: 100px;
+	color:#999;
+}
+
+.gamePath {
+	width: 500px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/**************** Game Details ********************/
+.GameContent {
+	border-style: solid;
+ 	border-width: 2px;
+	border-color: #575757 #1a1a1a #1a1a1a #505050;
+	width: 650;
+}
+.labels {
+	padding: 3px;
+}
+
+.textInput {
+	
+}
+
+/**************** Image  Loader ****************/
+DIV#loaderBG {
+	border: 0px;
+	width: 640px;
+	height: 360px;
+	overflow: hidden;
+}
+
+DIV#loaderBG.loading {
+	background: url(/files/images/loadingBackground.png) no-repeat;
+}
+
+DIV#loaderIcon {
+	border: 0px;
+	width: 64px;
+	height: 64px;
+	overflow: hidden;
+}
+
+DIV#loaderIcon.loading {
+	background: url(/files/images/loadingIcon.png) no-repeat;
+}
+
+DIV#loaderBanner {
+	border: 0px;
+	width: 420px;
+	height: 96px;
+	overflow: hidden;
+}
+
+DIV#loaderBanner.loading {
+	background: url(/files/images/loadingBanner.png) no-repeat;
+}
+
+DIV#loaderBox {
+	border: 0px;
+	width: 220px;
+	height: 300px;
+	overflow: hidden;
+}
+
+DIV#loaderBox.loading {
+	background: url(/files/images/loadingBoxart.png) no-repeat;
+}
+
+.iconFailed{
+	background: url(/files/images/missingIcon.png) no-repeat;
+}
+
+.bannerFailed{
+	background: url(/files/images/missingBanner.png) no-repeat;
+}
+
+.bgFailed{
+	background: url(/files/images/missingBackground.png) no-repeat;
+}
+
+.boxFailed{
+	background: url(/files/images/missingBoxart.png) no-repeat;
+}
+
+/**************** Input Styling ****************/
+
+select {
+	background-color: 4c4c4c;
+	border-color: #404040 #242424 #242424 #4a4a4a;
+	color: fff;
+	width: 150px;
+}
+
+.input {
+	background-color: 4c4c4c;
+	border-color: #404040 #242424 #242424 #4a4a4a;
+	color: fff;
+	width: 150px;	
+}
+
+.submit:hover {
+	border-top-color: #ff8e24 !important;
+	border-left-color: #ff8e24;
+	background-color: #f48822;
+	color: #000;
+}
+
+.submit {
+	background: #666;
+	width: 80px;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: 0;
+	font: bold 11px/1em Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	color: #FFF;
+	display: inline;
+	margin: 5px;
+	padding: 5px;
+	text-decoration: none;
+	cursor: pointer;	
+}
+
+.BrowseSubmit {
+	background: #666;
+	width: 80px;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: 0;
+	font: bold 11px/1em Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	color: #FFF;
+	display: inline;
+	padding: 5px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#FileUpload {
+    position:relative;
+}
+
+#BrowserVisible {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    height:27px;
+    width:360px;
+	cursor: pointer;
+}
+
+.FileField {
+    width:270px;
+    height:27px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+    margin-right:2px;
+    font-size:16px;
+	background: #4c4c4c;
+	border-style: solid;
+ 	border-width: 2px;
+	border-color: #1a1a1a #505050 #575757 #1a1a1a;
+	padding: 3px;
+	color: #fff;
+}
+
+.BrowserHidden {
+    position:relative;
+    width:360px;
+    height:27px;
+    text-align: right;
+    -moz-opacity:0 ;
+    filter:alpha(opacity: 0);
+    opacity: 0;
+    z-index: 2;
+}
+
+/**************** Input Styling IE Hacks *******/
+
+*:first-child+html .submit {		/* hack needed for IE 7 */
+	border-bottom: 0;
+	text-decoration: none;
+	display: block;
+	padding: 5px 30px;
+}
+
+* html .submit {				/* hack needed for IE 5/6 */
+	border-bottom: 0;
+	text-decoration: none;
+	display: block;
+ 	padding: 5px 30px;
+}

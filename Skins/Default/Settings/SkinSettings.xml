@@ -1,0 +1,18 @@
+<config>
+	<canvasmanager>
+		<LOADBKGA>0</LOADBKGA>
+		<LOADBKGB>0</LOADBKGB>
+		<LOADANIM1>TRUE</LOADANIM1>
+		<LOADANIM2>TRUE</LOADANIM2>
+		<LOADANIM3>TRUE</LOADANIM3>
+		<LOADANIM4>FALSE</LOADANIM4>		
+	</canvasmanager>
+	<rss>
+		<FeedTitleColor>#ffffff</FeedTitleColor>
+		<ItemTitleColor>#999999</ItemTitleColor>
+		<ItemBodyColor>#666666</ItemBodyColor>
+		<ItemDateColor>#999999</ItemDateColor>
+		<FeedTitleFontSize>13</FeedTitleSize>
+		<ItemFontSize>12</ItemFontSize>
+	</rss>
+</config>
