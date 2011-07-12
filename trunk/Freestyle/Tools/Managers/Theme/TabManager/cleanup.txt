@@ -1,0 +1,47 @@
+Maps:
+
+VisualList
+LoadedMenuMap
+PreviewMenuMap
+ActiveMenuMap
+
+TabFocusData focus[sizeof(TabManagerMenu)];
+
+
+LoadXML_MenuMap
+LoadXML_VisualList
+LoadXML_AssetList
+
+SaveXML_MenuMap
+
+
+-DataPackage
+
+requestTabDataPackage(int nParent, int nChild, int nFlag)
+submitTabDataPackage(int nParent, int nChild, TabDataPackage tabData, int nFlag)
+
+
+Count-
+getdataVisualCount
+getdataParentCount(int nFlag)
+getdataChildCount(int nParent, int nFlag)
+getdataAssetCount(int nVisual, int nFlag)
+
+TabFocus-
+getFocusChild(int nFlag)
+getFocusParent(int nFlag)
+setFocusChild(int nChild, int nFlag)
+setFocusParent(int nChild, int nFlag)
+
+ColorConverstions-
+convertRGBAToString(int nFlag)
+convertRGBAToInt(int nFlag)
+convertDWORDToString(DWORD dwColor)
+convertDWORDToRGBA(DWORD dwColor)		return Byte[sizeof(TabManagerColor)]
+convertStringToDWORD(string strColor)
+convertStringToRGBA(string strColor) 		return Byte[sizeof(TabManagerColor)]
+
+
+
+
+

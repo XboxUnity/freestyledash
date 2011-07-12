@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+/** 
+ * @file		default.css
+ * @version		0.1
+ * @type		transitional
+ * @browsers	Windows: IE6+, Opera7+, Firefox1+
+ *				Mac OS: Safari2+, Firefox2+
+ *
+ * @link		http://www.lwis.net/
+ * @copyright	2008 Live Web Institute. All Rights Reserved.
+ *
+ * Module Classes: *.dir {} *.on {} *.open {} li.hover {} li.first {} li.last {}
+ * Expected directory tag - li
+ *
+ */
+
+
+/*------------------------------------------------------------------------------------------------------/
+	@section	Style Framework  */
+
+
+	/* First-level expected directory tag - li */
+
+	ul.dropdown li {
+	 padding: 5px;
+	}
+
+	ul.dropdown *.dir {
+	 padding-right: 30px;
+	 background-image: none;
+	 background-position: 100% 50%;
+	 background-repeat: no-repeat;
+	}
+
+		/* Non-first level */
+		ul.dropdown ul *.dir {
+		 padding-right: 15px;
+		 background-image: url(images/nav-arrow-right.png);
+		 background-position: 100% 50%;
+		 background-repeat: no-repeat;
+		}
+
+		ul.dropdown ul ul *.dir {
+		 background-image: url(images/nav-arrow-right2.png);
+		}
+
+
+	/* Components override */
+
+	ul.dropdown-vertical *.dir {
+	 background-image: url(images/nav-arrow-right.png);
+	}
+
+	ul.dropdown-vertical-rtl *.dir {
+	 padding-right: 15px;
+	 background-image: url(images/nav-arrow-left.png);
+	 background-position: 0 50%;
+	}
+
+
+
+/*------------------------------------------------------------------------------------------------------/
+	@section	Base Drop-Down Styling  */
+
+
+
+	/* ALL LEVELS (incl. first) */
+
+	ul.dropdown {
+	 font: bold 17px/normal Arial, Helvetica, sans-serif;
+	}
+
+		ul.dropdown li {
+		 background-color: #333;
+		 color: #fff;
+		}
+
+		ul.dropdown li.hover,
+		ul.dropdown li:hover {
+		}
+
+		/* Links */
+
+		ul.dropdown a:link,
+		ul.dropdown a:visited { color: #fff; text-decoration: none;}
+		ul.dropdown a:hover {
+		 border-top-color: #ff8e24 !important;
+		 border-left-color: #ff8e24;
+		 background-color: #f48822;
+		 color: #000;
+		}
+		
+		/* Form Buttons */
+		ul.dropdown *.submit:link,
+		ul.dropdown *.submit:visited { color: #fff; text-decoration: none;}
+		ul.dropdown *.submit:hover {
+		 border-top-color: #ff8e24 !important;
+		 border-left-color: #ff8e24;
+		 background-color: #f48822;
+		 color: #000;
+		}
+
+		ul.dropdown ul a.dir:hover { /* proposal */
+		 background-color: #f48822;
+		 background-image: url(images/comnav-arrowon.png);
+		 color: #000;
+		}
+
+		ul.dropdown a:active {
+		 background: #f27324 url(images/nav-sub-press.png) 0 0 repeat-x !important;
+		 color: #000;
+		}
+		
+		ul.dropdown *.submit:active {
+		 background: #f27324 url(images/nav-sub-press.png) 0 0 repeat-x !important;
+		 color: #000;
+		}
+		
+		
+		/* Input Buttons */
+		ul.dropdown *.submit {
+		 background: transparent;
+		 border-top: 0;
+		 border-right: 0;
+		 border-bottom: 0;
+		 border-left: 0;
+		 font: bold 11px/1em Tahoma, Geneva, Verdana, sans-serif;
+		 text-align: left;
+		 color: #FFF;
+		 display: inline;
+		 margin: 0;
+		 padding: 0;
+		 text-decoration: none;
+		 cursor: pointer;	
+		}
+
+
+		/* NON-FIRST LEVEL */
+
+		ul.dropdown ul {
+		 left: auto;
+		 right: 0;
+		 width: 150px;
+		 margin-top: -1px;
+		 border-top: 1px solid #1a1a1a;
+		 border-left: solid 1px #4c4c4c;
+		 font: bold 11px/1em Tahoma, Geneva, Verdana, sans-serif;
+		}
+
+			ul.dropdown ul li {
+			 background-color: #3a3a3a;
+			}
+
+		ul.dropdown ul ul {
+		 top: 0;
+		 right: auto;
+		 left: 100%;
+		 margin-top: 0;
+		 border-top: none;
+		 border-left: none;
+		 font-weight: bold;
+		}
+
+			ul.dropdown ul ul li {
+			 background-color: #4c4c4c;
+			}
+
+		ul.dropdown ul ul ul li {
+		 background-color: #595959;
+		}
+
+
+
+/* Mixed */
+
+ul.dropdown li a,
+ul.dropdown *.dir {
+ border-style: solid;
+ border-width: 1px;
+ border-color: #404040 #1a1a1a #1a1a1a #505050;
+}
+
+ul.dropdown ul li a,
+ul.dropdown ul *.dir { border-color: #4a4a4a #242424 #242424; border-left: none; }
+
+ul.dropdown ul ul li a,
+ul.dropdown ul ul *.dir { border-color: #595959 #333 #333; }
+
+ul.dropdown ul ul ul li a,
+ul.dropdown ul ul ul *.dir { border-color: #767676 #404040 #404040; }
+
+
+
+/* Custom elements */
+
+#n-settings { width: 200px; text-align: center; }
+#n-settings ul { right: auto; left: 0; width: 199px; text-align: left; }
+#n-settings ul ul { left: 199px; width: 150px; }
+#n-settings ul a { width: 182px; }
+#n-settings ul a.dir { width: 160px; }
+#n-settings ul ul a { width: 133px; }
+#n-settings ul ul a.dir { width: 111px; }
+#n-settings ul ul ul { left: 100%; }

@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>FreeStyleDash HTTP Client - ##GAMELISTTITLE##</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/files/css/FSD.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/files/css/dropdown.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/files/css/default.ultimate.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript"></script>
+
+<!--[if lt IE 7]>
+<script type="text/javascript" src="/files/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="/files/js/jquery/jquery.dropdown.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+function postwith (to,p) {
+  var myForm = document.createElement("form");
+  myForm.method="post" ;
+  myForm.action = to ;
+  for (var k in p) {
+    var myInput = document.createElement("input") ;
+    myInput.setAttribute("name", k) ;
+    myInput.setAttribute("value", p[k]);
+    myForm.appendChild(myInput) ;
+  }
+  document.body.appendChild(myForm) ;
+  myForm.submit() ;
+  document.body.removeChild(myForm) ;
+}
+</script>
+
+<!-- Special loading class for icons div -->
+<style type="text/css">
+.loading {
+	border: 0px;
+	width: 64px;
+	height: 64px;
+	overflow: hidden;
+	background: url(/files/images/loadingIcon.png) no-repeat;
+}
+</style>
+
+<!-- Dynamic JQuery code for icon loding images -->
+<script type="text/javascript">
+$(function () {
+<!-- Edit format in gamelistloadingentry.inc -->
+##GAMELISTLOADING##
+});
+</script>
+
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" class="MainTable">
+
+<!-- Logo -->
+  <tr class="LogoRow">
+    <td class="LogoCol">
+      <div id="logo" align="center">
+          <a href="/"><img src="/files/images/FSD_Logo.png" width="800" height="70" /></a>
+      </div>
+    </td>
+  </tr>
+<!-- End Logo -->
+
+<!-- Nav Menu -->
+  <tr class="NavRow">
+    <td class="NavCol">
+      <ul id="nav" class="dropdown dropdown-horizontal">
+          <li id="n-debug"><a class="dir">Debug Info</a>
+              <ul>
+                  <li><span class="dir">Version Info</span>
+                      <ul>
+                          <li class="first"><a>Dash version: <br><i>##DASHVERSION##</i></a></li>
+                          <li><a><strong>Skin version: <br><i>##SKINVERSION##</i></a></li>
+                          <li><a><strong>Plugin version: <br><i>##PLUGINVERSION##</i></a></li>
+                      </ul>
+                  </li>
+                  <li class="first"><a href="/debug.txt" title="FSD Debug Log">Debug Log</a></li>
+              </ul>
+          </li>
+          
+          <li id="n-settings"><a class="dir">Setting Manager</a>
+              <ul>
+                  <li class="first"><a href="javascript:postwith('/paths', {sessionid:'##SESSIONID##'})">Edit Paths</a></li>
+                  <li><a href="./">Edit Config Settings</a></li>
+              </ul>
+          </li>
+          
+          <li id="n-gameList"><a class="dir">Game Lists</a>
+              <ul>
+                  <li class="first"><a href="javascript:postwith('/360', {sessionid:'##SESSIONID##'})" title="##XBOX360## List">##XBOX360##</a></li>
+                  <li><a href="javascript:postwith('/XBLA', {sessionid:'##SESSIONID##'})" title="##XBLA## List">##XBLA##</a></li>
+                  <li><a href="javascript:postwith('/Homebrew', {sessionid:'##SESSIONID##'})" title="##HOMEBREW## List">##HOMEBREW##</a></li>
+                  <li><a href="javascript:postwith('/Emulators', {sessionid:'##SESSIONID##'})" title="##EMULATORS## List">##EMULATORS##</a></li>
+                  <li><a href="javascript:postwith('/Xbox1', {sessionid:'##SESSIONID##'})" title="##XBOXCLASSIC## List">##XBOXCLASSIC##</a></li>
+              </ul>
+          </li>
+          
+          <li id="n-commands"><a class="dir">Commands</a>
+              <ul>
+                  <li class="first"><span class="dir">Basic</span>
+                      <ul>
+                          <li class="first"><a href="/screenshot.png">Screenshots</a></li>
+                      </ul>
+                  </li>
+                  <li><span class="dir">Advanced</span>
+                      <ul>
+                          <li class="first"><form name="Commands" id="Commands" method="post"><input type="hidden" name="sessionid" value="##SESSIONID##" /><input type="submit" class="submit" name="Action" value="Restart FSD"/></form></li>
+                          <li><form name="Commands" id="Commands" method="post"><input type="hidden" name="sessionid" value="##SESSIONID##" /><input type="submit" class="submit" name="Action" value="Shutdown FSD"/></form></li>
+                      </ul>
+                  </li>
+              </ul>
+          </li>						
+      </ul>
+    </td>
+  </tr>
+<!-- End Nav Menu -->
+
+<!-- Main -->
+  <tr class="MainRow">
+    <td class="MainCol">
+		<h1>##GAMELISTTITLE##</h1>
+        <br>
+        <table class="GameContentHeader">
+            <tr align="center">
+            	<td class="icon"></td>
+                <td class="gameName"><strong>Game Name</strong></td>
+                <td class="titleID"><strong>Title ID</strong></td>
+                <td class="gamePath"><strong>Path</strong></td>
+            </tr>
+        </table> 
+        <!-- Edit format in gamelistentry.inc -->
+        ##GAMELISTENTRIES##
+
+    </td>
+  </tr>
+<!-- End Main -->
+
+<!-- Footer -->
+  <tr class="FooterRow">
+    <td class="FooterCol">
+    	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+        	<tr>
+            	<td width="150"><b>IP :</b> ##IP##</td>
+                <td><b>Status :</b> ##STATUSTEXT##</td>
+    			<td width ="150"><b>CPU :</b> ##CPUTEMP####TEMPUNIT## , ##CPUTEMPPCT##%</td>
+   				<td width ="150"><b>GPU :</b> ##GPUTEMP####TEMPUNIT## , ##GPUTEMPPCT##%</td>
+    			<td width ="150"><b>MEM :</b> ##MEMTEMP####TEMPUNIT## , ##MEMTEMPPCT##%</td>
+    			<td width ="200"><b>BOARD :</b> ##CASETEMP####TEMPUNIT## , ##CASETEMPPCT##%</td>
+            </tr>
+    	</table>
+    </td>
+  </tr>
+<!-- End Footer -->
+</table>
+
+</body>
+</html>

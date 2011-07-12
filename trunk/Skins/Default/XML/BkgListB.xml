@@ -1,0 +1,22 @@
+<backgroundlist>
+	<Background name="Skin Default">
+		<FILEPATH>Images\Backgrounds\Stages\stage2.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Stages\Previews\preview2.png</PREVIEWPATH>
+	</Background>
+	<Background name="Opaque">
+		<FILEPATH>Images\Backgrounds\Stages\stage.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Stages\Previews\preview1.png</PREVIEWPATH>
+	</Background>
+	<Background name="NXE Lite">
+		<FILEPATH>Images\Backgrounds\Stages\stage3.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Stages\Previews\preview3.png</PREVIEWPATH>
+	</Background>
+	<Background name="Meadow">
+		<FILEPATH>Images\Backgrounds\Stages\stage4.png</FILEPATH>
+		<PREVIEWPATH>Images\Backgrounds\Stages\Previews\preview4.png</PREVIEWPATH>
+	</Background>
+	<Background name="No Stage">
+		<FILEPATH></FILEPATH>
+		<PREVIEWPATH></PREVIEWPATH>
+	</Background>
+</backgroundlist>

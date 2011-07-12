@@ -1,0 +1,1 @@
+<table class="ContentList"><tr align="center"><td class="devkit">##PATHDEVKITTYPE##</td><td class="retail">##PATHRETAILTYPE##</td><td class="path">##PATHPATH##</td></tr></table>

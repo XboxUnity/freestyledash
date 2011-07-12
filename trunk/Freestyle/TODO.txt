@@ -1,0 +1,33 @@
+Urgent Change :
+	-REWORK SCNMAIN (Same time as ScnGames)
+	-Change xml reader to ATG XML Reader
+	-Change xml writing procedure to use ATG XML Writer
+	-Fix GetXMLSpecialChars in Fontchars.h (this probably become useless when switching xml reader to atg reader)
+	-Reset Leds in ContentList::LaunchGame
+	-SkinManager XML Scene Settings /*See skin manager specs.txt*/ JQE COMPLETED
+	-Split HttpDownloader and Downloadable item in .cpp and .h
+	-Investigate what XuiWaitList do
+	-Clean ContentList - Rework content downloader...
+	-Rework ScnAppConfig to not use extern variable
+	-Change File Browser Settings /*Modes are currently globals, should use the VariablesCache*/
+	-Reintegrate SkinManager in ScnNANDFLasher /*Currently not proper)
+	-Fix ScnOptions SetFanSpeed/SetTempLed/SetLedState
+
+Normal Change :
+	-File Manager should go to root to choose drive
+	-Make configurable scene use xml instead of label _ JQE COMPLETED
+	-Remove timer from scnsysteminfo /*Use SCNMAIN*/	
+	-Make SMC Class a manager
+	-Clean XBOXTOOLS and TOOLS (Split in non generic file, removed useless stuff)
+	-Simplify network managing (make a class instead of global function : Network.GetSocket(... Should also ensure that 		 network is innited by itself)
+	(DONE) Noon show as 0:00  (noon and midnight should be shown as 12:00 not 0:00)
+
+New Feature to do :
+	-ContentList Paths should not be defined by types, should just be a list of path, configurable from FSD. 
+	-Savegame manager /*List Profiles, Saved Games, allow backup and restore*/
+	-FTP "EASY MODE" /*In root : 360 Games,XBLA, Xbox1, Homebrew, Savegames, list by name instead of id, should use different username password to flag easy mode or no*/
+	-Try to get Recent game list from NXE
+	-Show current TimeZone
+	-Set Timezone
+	-DST sync.. (If xbox never been connected to xbl, dst are not working)
+	-Skin Minimum Version (from skin xml compare to current version) JQE COMPLETED
